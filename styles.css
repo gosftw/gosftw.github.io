@@ -215,6 +215,10 @@ main .introduction p {
   text-align: justify;
 }
 
+main .introduction li {
+  font-size: 1.2em;
+}
+
 @media (max-width: 600px) {
   .header {
     text-align: left;
@@ -306,11 +310,20 @@ main .card p {
   text-align: justify;
 }
 
+
 @media (min-width: 768px) {
-  .skills-section .card {
-    width: 90%;
+  .skills-section {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* Define three columns with equal width */
   }
 }
+
+@media (min-width: 768px) {
+  .skills-section .card {
+    align-items: stretch;
+  }
+}
+
 
 @media (min-width: 1200px) {
   .skills-section {
@@ -393,3 +406,7 @@ main .card p {
   text-align: right;
 }
 
+
+footer {
+  font-size: 16px;
+}

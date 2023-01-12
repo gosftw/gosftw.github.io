@@ -3,8 +3,6 @@ d<!DOCTYPE html>
   <head>
     <meta charset="utf-8">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
-    
-    <!--<title><i class="fas fa-m"></i> Juan Manuel Castro Arnez's Portfolio</title>-->
     <title>My portfolio - Manu</title>
     <link rel="stylesheet" href="styles.css">
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
@@ -46,8 +44,8 @@ d<!DOCTYPE html>
     
     <nav>
       <a href="#home">Home</a>
-      <a href="#skills">Skills</a>
       <a href="#experience">Experience</a>
+      <a href="#skills">Skills</a>
       <a href="#achievements">Achievements</a>
       <a href="#projects">Projects</a>
       <a href="#about">About</a>
@@ -75,6 +73,86 @@ d<!DOCTYPE html>
         
       </section>
       
+      <section id="experience">
+        <h1>Experience</h1>
+
+        <div class="experience-section">
+          <div class="card">
+            <h3><i class="fas fa-code"></i> Backend developer</h3>
+            <div class="experience-header">
+              <div class="company">Freelance</div>
+              <div class="duration">May 2021 - Aug 2022</div>
+            </div>
+            <ul class="description-list">
+              <li>Developed real-time data updating services for the backend using Firebase and Parse-Server (live queries) in Typescript.</li>
+              <li>Implemented a backend system in Python to manage users, services and instances of services centrally.</li>
+              <li>Collected data from user navigation, actions, and transaction history to improve product recommendations and user experience.</li>
+            </ul>
+          </div>
+
+          <div class="card">
+            <h3><i class="fas fa-brain"></i> Machine Learning Engineer</h3>
+            <div class="experience-header">
+              <div class="company">Digital Harbor</div>
+              <div class="duration">Jul 2019 - Feb 2020</div>
+            </div>
+            <ul class="description-list">
+              <li>Developed an Extract, Transform, Load (ETL) module to streamline data migration for the business.</li>
+              <li>Extract text from digital documents using OCR-Tesseract library.</li>
+              <li>Identify intent and entities in document sentences using Natural Language Understanding model.</li>
+              <li>Constructed a comprehensive pipeline to convert natural language questions into database queries and deliver results in a human-like language.</li>
+              <li>Implemented asynchronous data migration and collection from various sources.</li>
+            </ul>
+          </div>
+          
+          <div class="card">
+            <h3><i class="fas fa-brain"></i> Machine Learning Engineer</h3>
+            <div class="experience-header">
+              <div class="company">Freelance</div>
+              <div class="duration">May 2018 - Mar 2019</div>
+            </div>
+            <ul class="description-list">
+              <li>Develop a module for recognize numbers in handwritten documents using OpenCV and Tensorflow.</li>
+              <li>Construct a module to detect and verify faces with autoencoders technique.</li>
+              <li>Implement a module to recognize and verify logos and signatures with autoencoders architecture.</li>
+
+
+            </ul>
+          </div>
+          
+          <div class="card">
+            <h3><i class="fas fa-book"></i> Research assistant</h3>
+            <div class="experience-header">
+              <div class="company">Semantics</div>
+              <div class="duration">Nov 2017 - Mar 2018</div>
+            </div>
+            <ul class="description-list">
+              <li>Research different methods, libraries, and implementation techniques for CACHING in Github projects, improving the performance and scalability of the software.</li>
+              <li>Assisting school students in the development, maintenance and high-performing robots using VEX robotics hardware.</li>
+
+
+            </ul>
+          </div>
+          
+          <div class="card">
+            <h3><i class="fas fa-book"></i> Course assistant</h3>
+            <div class="experience-header">
+              <div class="company">Mayor de San Simón University</div>
+              <div class="duration">Mar 2016 - Dec 2017</div>
+            </div>
+            <ul class="description-list">
+              <li>Delivered instruction on Object-Oriented Programming (OOP) principles and their application in software modeling to students, ensuring they have a strong understanding of OOP concepts and can apply them effectively in real-world scenarios.</li>
+              <li>Teach to students basic programming structures, such as control flow, data types, and algorithms, to problem solving. Provided hands-on exercises and activities, to help students to understand how to apply these concepts to solve real-world problems and improve their problem-solving skills.</li>
+
+
+            </ul>
+          </div>
+
+        </div>
+
+      </section>
+
+      
       <section id="skills">
         <h1>Skills</h1>
         <div class="skills-section">
@@ -97,17 +175,6 @@ d<!DOCTYPE html>
             </ul>
           </div>
           <div class="card">
-            <h3><i class="fas fa-toolbox"></i> IDEs</h3>
-            <ul>
-              <li>Pycharm</li>
-              <li>VSCode</li>
-              <li>Netbeans</li>
-              <li>Eclipse</li>
-              <li>IntelliJ</li>
-              <li>Anaconda</li>
-            </ul>
-          </div>
-          <div class="card">
             <h3><i class="fas fa-cogs"></i> Development</h3>
             <ul>
               <li>Git</li>
@@ -119,9 +186,7 @@ d<!DOCTYPE html>
           <div class="card">
             <h3><i class="fas fa-database"></i> Databases</h3>
             <ul>
-              <li>MySQL</li>
               <li>SQL</li>
-              <li>PostgreSQL</li>
               <li>MongoDB</li>
               <li>Firebase</li>
               <li>Parse-server</li>
@@ -149,106 +214,9 @@ d<!DOCTYPE html>
         </div>      
       </section>
       
-      
-      <section id="experience">
-        <h1>Experience</h1>
-
-        <div class="experience-section">
-          <div class="card">
-            <h3><i class="fas fa-code"></i> Backend developer</h3>
-            <div class="experience-header">
-              <div class="company">Freelance</div>
-              <div class="duration">May 2021 - Aug 2022</div>
-            </div>
-            <ul class="description-list">
-              <li>Implement backend reactive services with firebase and parse-server (live queries) for live data updating purpose. (Typescript)</li>
-              <li>Implement a backend centralized project to manage users, services, and instances of services. (Python)</li>
-              <li>Collect data from user navigations, actions, and transaction history for ux/ui improvement and product recommendation purposes.</li>
-
-            </ul>
-          </div>
-
-          <div class="card">
-            <h3><i class="fas fa-brain"></i> Machine Learning Engineer</h3>
-            <div class="experience-header">
-              <div class="company">Digital Harbor</div>
-              <div class="duration">Jul 2019 - Feb 2020</div>
-            </div>
-            <ul class="description-list">
-              <li>Implement an Extract, Transform, Load module for data migration.</li>
-              <li>Design OCR-Tesseract module to extract text from digital documents.</li>
-              <li>Design and train Natural Language Understanding Engine to detect Intent and Entities in document sentences and questions.</li>
-              <li>Design and Implement a complete pipeline to turn a Natural Language Question into a database query and return results in Humanlike Language.</li>
-              <li>Implement async data migration and collection from different resources.</li>
-              <li>Design knowledge base structure for engine learning purpose.</li>
-
-            </ul>
-          </div>
-          
-          <div class="card">
-            <h3><i class="fas fa-brain"></i> Machine Learning Engineer</h3>
-            <div class="experience-header">
-              <div class="company">Freelance</div>
-              <div class="duration">May 2018 - Mar 2019</div>
-            </div>
-            <ul class="description-list">
-              <li>Implement a system to recognize numbers in handwritten documents using OpenCV and Tensorflow.</li>
-              <li>Implement a system to detect and verify faces with autoencoders technique based on trained Keras models.</li>
-              <li>Implement a module to recognize and verify logos and signatures with autoencoders based on trained Keras models.</li>
-
-
-            </ul>
-          </div>
-          
-          <div class="card">
-            <h3><i class="fas fa-book"></i> Research assistant</h3>
-            <div class="experience-header">
-              <div class="company">Semantics</div>
-              <div class="duration">Nov 2017 - Mar 2018</div>
-            </div>
-            <ul class="description-list">
-              <li>Research methods, libraries and implementation of caching in github projects.</li>
-              <li>Teach robotics design and programming with VEX robotics.</li>
-
-
-            </ul>
-          </div>
-          
-          <div class="card">
-            <h3><i class="fas fa-book"></i> Course assistant</h3>
-            <div class="experience-header">
-              <div class="company">Mayor de San Simón University</div>
-              <div class="duration">Mar 2016 - Dec 2017</div>
-            </div>
-            <ul class="description-list">
-              <li>Teach OOP programming principles to software modeling.</li>
-              <li>Teach Basic programming structures applied to problem solving.</li>
-
-
-            </ul>
-          </div>
-
-        </div>
-
-      </section>
-
       <section id="achievements">
         <h1>Achievements</h1>
         <div class="achievements-section">
-          <div class="card">
-            <h3><i class="fas fa-book"></i> Bachelor degree in Computer Science</h3>
-            <div class="achievement-header">
-              <div class="degree">Mayor de San Simón University <a href="https://www.umss.edu.bo/" title="View University website" target="_blank"><i class="fas fa-link"></i></a> </div>
-              <div class="timestamp">2013 - 2017</div>
-            </div>
-            <div class="spacer"></div>
-            <div class="location">Thesis:</div>
-            <ul class="description-list">
-              <li>Wildfire detection over panoramic images with Convolutional Neural Networks (CNNs).</li>
-            </ul>
-            <div class="location">Advisor: <a href="https://www.linkedin.com/in/eduardodisanti/" title="View Eduardo DiSanti LinkedIn profile" target="_blank">Eduardo Di Santi Phd. <i class="fab fa-linkedin"></i></a></div>
-            
-          </div>
 
           <div class="card">
             <h3><i class="fas fa-brain"></i> Deep Learning Specialization</h3>
@@ -267,6 +235,21 @@ d<!DOCTYPE html>
             </ul>
             <div class="location">Certificate: <a href="http://coursera.org/verify/specialization/LNPG9A5VPHN4"> Coursera <i class="fas fa-link"></i> </a></div>
           </div>
+
+          <div class="card">
+            <h3><i class="fas fa-book"></i> Bachelor degree in Computer Science</h3>
+            <div class="achievement-header">
+              <div class="degree">Mayor de San Simón University <a href="https://www.umss.edu.bo/" title="View University website" target="_blank"><i class="fas fa-link"></i></a> </div>
+              <div class="timestamp">2013 - 2017</div>
+            </div>
+            <div class="spacer"></div>
+            <div class="location">Thesis:</div>
+            <ul class="description-list">
+              <li>Wildfire detection over panoramic images with Convolutional Neural Networks (CNNs).</li>
+            </ul>
+            <div class="location">Advisor: <a href="https://www.linkedin.com/in/eduardodisanti/" title="View Eduardo DiSanti LinkedIn profile" target="_blank">Eduardo Di Santi Phd. <i class="fab fa-linkedin"></i></a></div>
+          </div>
+
       </section>
       
       <section id="projects">
@@ -299,15 +282,11 @@ d<!DOCTYPE html>
 
       <section id="about" class="introduction">
         <h1>About the site</h1>
-        <p>Welcome to Juan's portfolio website, a unique digital experience that showcases the GPT-3 abilities... Yes, the site was mostly generated using the cutting-edge GPT-3 model from OpenAI,
-          and the only human intervention was to put the information together.</p>
-        <p>The website is built with HTML, JavaScript, and CSS, to deliver an interactive and engaging user interface, while the written content,
-          descriptions and categorization was generated on-the-fly by GPT-3, ensuring that the information is highly relevant, personalized and tailored to show Juan's abilities, experience and skills.</p>
-        <p>We used GPT-3 capabilities to generate and organize the portfolio, showcasing our work in different areas, technologies and industries, using the model's 
-          ability to understand the context and generate human-like descriptions.
-          The overall design and presentation of the website, were also generated by GPT-3 with human oversight, making sure that the portfolio is visually pleasing
-           and easy to navigate.</p>
-        <p>We hope that you enjoy exploring the portfolio and find it useful in your search to work with together. Thank you for visiting!</p>
+        <p>Juan's portfolio website is a digital experience that showcases the abilities of GPT-3.
+          The site was generated using GPT-3 from OpenAI, with only minimal human intervention.</p>
+        <p>The website is built using HTML, JavaScript, and CSS to provide an interactive and engaging user interface. GPT-3 was used to generate the written content, descriptions, and categorization on-the-fly,
+          ensuring that the information is highly relevant, personalized, and tailored to showcase Juan's abilities, experience, and skills.</p>
+        <p>I hope you enjoy exploring the portfolio and considering Juan for future projects.</p>
         
       </section>
 
